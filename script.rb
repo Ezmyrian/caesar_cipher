@@ -1,5 +1,3 @@
-
-
 UPPERCASE_LETTERS = [*("A".."Z")]
 LOWERCASE_LETTERS = [*("a".."z")]
 
@@ -40,7 +38,6 @@ def caesar_cipher(string, number)
       index
     end
   end
-
   puts shifted_string_characters.join
 end
 
